@@ -4,7 +4,7 @@ Bu çalışma, bir `index.html` dosyası içerir ve temel bir ağ sayfasını te
 
 ## Kurulum
 
-1. Bu çalışmayı klonlayın: `https://github.com/avriya/memleketim.git`
+1. Bu çalışmayı klonlayın: `git clone https://github.com/avriya/memleketim.git`
 2. `index.html` dosyasını tarayıcınızda açın.
 
 ## Kullanım
