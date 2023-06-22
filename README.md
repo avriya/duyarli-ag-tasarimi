@@ -1,24 +1,72 @@
-# Memleketim
 
-Bu çalışma, bir `index.html` dosyası içerir ve temel bir ağ sayfasını temsîl eder.
+# Duyarlı Ağ Tasarımı | Responsive Web Design
 
-## Kurulum
+- [Duyarlı Ağ Tasarımı | Responsive Web Design](#duyarlı-ağ-tasarımı--responsive-web-design)
+  - [\[tr\] Türkçe Sürüm](#tr-türkçe-sürüm)
+    - [Sertifika](#sertifika)
+    - [Projeler](#projeler)
+    - [Lisans](#lisans)
+  - [\[en\] English Version](#en-english-version)
+    - [Certificate](#certificate)
+    - [Projects](#projects)
+    - [License](#license)
+---
+## \[tr\] Türkçe Sürüm
 
-1. Bu çalışmayı klonlayın: `https://github.com/avriya/memleketim.git`
-2. `index.html` dosyasını tarayıcınızda açın.
+Bu saklanak, Duyarlı Ağ Tasarımı alanında sertifika kazanırken oluşturduğum projelerin bir derlemini içermektedir. Her proje, duyarlı ağ tasarımının farklı yönlerine odaklanmakta; mobil dostu ve uyarlanabilir ağ siteleri oluşturma becerilerimi sergilemektedir.
 
-## Kullanım
+### Sertifika
 
-Web sayfasını tarayıcınızda açtıktan sonra, çalışmayı görüntüleyebilirsiniz. Dosya, basit bir HTML yapısına sahiptir ve tarayıcınızda düzgünce çalışır.
+[freeCodeCamp](https://www.freecodecamp.org/) tarafından sağlanan Duyarlı Ağ Tasarımı sertifika programını  başarıyla tamamladım. Sertifikamı görüntülemek ve doğruluğunu teyit etmek için [sertifika sayfasını](https://www.freecodecamp.org/certification/avriya/responsive-web-design) ziyaret edebilirsiniz.
 
-## Katkıda Bulunma
+### Projeler
 
-1. Bu projeyi çatallayın.
-2. Yeni bir dal oluşturun: `git checkout -b yenidal`
-3. Yapılan değişiklikleri taahhüt edin: `git commit -am 'Yeni özellikler eklendi'`
-4. Değişiklikleri dalınıza işleyin: `git push origin yenidal`
-5. Birleştirme talep edin: `git pull`
+Bu repository aşağıdaki projeleri içermektedir:
 
-## Lisans
+1. Proje: [Araştırma Formu](1-survey-form/)
+   - Açıklama: Kullanıcıdan veri toplamak amacıyla geliştirilmiş bir araştırma formu
 
-Bu proje [Atıf-GayriTicari 4.0 Uluslararası (CC BY-NC 4.0)](LICENSE.md) altında lisanslanmıştır. Daha fazla bilgi için `LICENSE.md` dosyasını inceleyin.
+2. Proje: [Anma Sayfası](2-tribute-page/)
+   - Açıklama: Hayali ya da gerçek, seçilen birisi için oluşturulmuş bir anma sayfası
+   - Canlı Demo: [Canlı Demo Linki](https://www.example.com/proje2)
+
+3. Proje: [Teknik Dokümantasyon](3-technical-documentation)
+   - Açıklama: Projenin kısa açıklaması.
+   - Canlı Demo: [Canlı Demo Linki](https://www.example.com/proje3)
+
+Her proje hakkında daha fazla bilgi için ilgili projeleri keşfedebilir ve responsive web tasarımındaki ilerlememi görebilirsiniz!
+
+### Lisans
+
+Bu saklanak, [Atıf-GayriTicari 4.0 Uluslararası](LICENSE) ile lisanslanmıştır.
+
+---
+## \[en\] English Version
+
+This repository contains a collection of projects I created while earning a certificate in Responsive Web Design. Each project focuses on different aspects of responsive web design and demonstrates my skills in building mobile-friendly and adaptable websites.
+
+### Certificate
+
+I successfully completed the Responsive Web Design certificate program offered by [freeCodeCamp](https://www.freecodecamp.org/). You can view my certificate and verify its authenticity by visiting the [certificate web page](https://www.freecodecamp.org/certification/avriya/responsive-web-design).
+
+### Projects
+
+The repository includes the following projects:
+
+1. Project 1: [Project Name](project1/README.md)
+   - Description: Brief description of the project.
+   - Live Demo: [Link to Live Demo](https://www.example.com/project1)
+
+2. Project 2: [Project Name](project2/README.md)
+   - Description: Brief description of the project.
+   - Live Demo: [Link to Live Demo](https://www.example.com/project2)
+
+3. Project 3: [Project Name](project3/README.md)
+   - Description: Brief description of the project.
+   - Live Demo: [Link to Live Demo](https://www.example.com/project3)
+
+Feel free to explore each project for more details and see my progression in responsive web design!
+
+### License
+
+This repository is licensed under the [MIT License](LICENSE).

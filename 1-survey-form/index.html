@@ -1,0 +1,214 @@
+<!-- belge-türü -->
+<!DOCTYPE html>
+
+<!-- html ve dil-belirteci -->
+<html lang="tr">
+  <!-- baş -->
+  <head>
+    <!-- karakter-takımı -->
+    <meta charset="UTF-8" />
+
+    <!-- duyarlı-tasarım -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- sekme-başlığı -->
+    <title>ismetKabasakal Survey Form</title>
+
+    <!-- tasarım-bağlantısı -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <!-- gövde -->
+  <body class="background-gradient color-white font-sans-serif">
+    <!-- başlık -->
+    <header class="text-center">
+      <!-- sayfa-başlığı <h1> #title -->
+      <h1 id="title">ismetKabasakal Survey Form</h1>
+
+      <!-- açıklama <p> #description -->
+      <p class="font-emphasised" id="description">
+        You can fill out the following form to contribute to our web-development
+        research
+      </p>
+    </header>
+
+    <!-- ana-içerik -->
+    <main>
+      <!-- form #survey-form -->
+      <form class="margin-form padding-form max-width-form" id="survey-form">
+        <!-- etiket #name-label -->
+        <label
+          class="display-block margin-form-item font-bold"
+          for="name"
+          id="name-label"
+        >
+          Name*
+          <!-- ad metin-girdisi #name zorunlu placeholder--enter-your-name -->
+          <input
+            class="display-block width-100pct font-sans-serif font-size-1rem"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+            required
+          />
+        </label>
+
+        <!-- etiket #email-label -->
+        <label
+          class="display-block margin-form-item font-bold"
+          for="email"
+          id="email-label"
+        >
+          Email*
+          <!-- e-posta eposta-girdisi #email zorunlu placeholder--enter-your-email -->
+          <input
+            class="display-block width-100pct font-sans-serif font-size-1rem"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+        </label>
+
+        <!-- etiket #number-label -->
+        <label
+          class="display-block margin-form-item font-bold"
+          for="number"
+          id="number-label"
+        >
+          Age
+          <!-- yaş sayı-girdisi #number placeholder--age -->
+          <input
+            class="display-block width-100pct font-sans-serif font-size-1rem"
+            type="number"
+            name="number"
+            id="number"
+            placeholder="Age"
+            min="13"
+            max="65"
+          />
+        </label>
+
+        <!-- rol açılır-liste #dropdown zorunlu -->
+        <div class="margin-form-item font-bold">
+          <!-- açıklama p -->
+          <p class="margin-form-item">
+            Which option best describes your current role?*
+          </p>
+
+          <select
+            class="padding-buttonish border-rounded width-100pct font-size-1rem"
+            name="rol"
+            id="dropdown"
+            required
+          >
+            <!-- önyüz seçenek -->
+            <option value="front-end">Front-end Development</option>
+
+            <!-- arkayüz seçenek -->
+            <option value="back-end">Back-end Development</option>
+
+            <!-- kapsamlı seçenek -->
+            <option value="full-stack">Full Stack Development</option>
+          </select>
+        </div>
+
+        <!-- geliştirilecekler onay-kutulu -->
+        <div class="margin-form-item">
+          <!-- açıklama p -->
+          <p class="margin-form-item font-bold">
+            What would you like to focus in the future? (Check all that apply)
+          </p>
+
+          <!-- önyüz onay-kutusu -->
+          <label class="padding-buttonish display-block" for="front-end">
+            <input type="checkbox" name="front-end" id="front-end" value="front-end"/>
+            Front-end Development
+          </label>
+
+          <!-- arkayüz onay-kutusu -->
+          <label class="padding-buttonish display-block" for="back-end">
+            <input type="checkbox" name="back-end" id="back-end" value="back-end"/>
+            Back-end Development
+          </label>
+
+          <!-- kapsamlı onay-kutusu -->
+          <label class="padding-buttonish display-block" for="full-stack">
+            <input type="checkbox" name="full-stack" id="full-stack" value="full-stack"/>
+            Full-stack Development
+          </label>
+        </div>
+
+        <!-- öneriler metin-alanı -->
+        <div class="margin-form-item font-bold">
+          <!-- açıklama -->
+          <p class="margin-form-item">Any comments or suggestions?</p>
+
+          <!-- metin alanı -->
+          <textarea
+            class="display-block width-100pct font-sans-serif font-size-1rem"
+            name="suggestions"
+            id="suggestions"
+            cols="10"
+            rows="3"
+          ></textarea>
+        </div>
+
+        <!-- şartlar çoktan-seçmeli zorunlu -->
+        <div class="margin-form-item">
+          <!-- açıklama p -->
+          <p class="margin-form-item font-bold">
+            Do you accept the terms of personal information usage?*
+          </p>
+
+          <!-- evet name--sart -->
+          <label
+            class="padding-buttonish display-block"
+            for="yes"
+            id="yes-label"
+          >
+            <input type="radio" name="sart" id="yes" value="yes"/>
+            Yes
+          </label>
+
+          <!-- hayır name--sart -->
+          <label class="padding-buttonish display-block" for="no" id="no-label">
+            <input type="radio" name="sart" id="no" value="yes"/>
+            No
+          </label>
+        </div>
+
+        <p class="font-emphasised">* Mandatory to fill</p>
+
+        <!-- gönder düğme #submit -->
+        <div>
+          <button
+            class="padding-buttonish border-rounded width-100pct font-sans-serif font-size-1rem"
+            type="submit"
+            id="submit"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
+    </main>
+
+    <!-- body-footer -->
+    <footer id="copyrights">
+      <!-- copyrights -->
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+        <img
+          alt="Creative Commons License"
+          style="border-width: 0"
+          src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"
+        />
+      </a>
+      <br />This work is licensed under a
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"
+        >Creative Commons Attribution-NonCommercial 4.0 International License</a
+      >.
+    </footer>
+  </body>
+</html>
