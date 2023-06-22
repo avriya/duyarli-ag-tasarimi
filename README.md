@@ -28,7 +28,6 @@ Bu repository aşağıdaki projeleri içermektedir:
 
 2. Proje: [Anma Sayfası](2-tribute-page/)
    - Açıklama: Hayali ya da gerçek, seçilen birisi için oluşturulmuş bir anma sayfası
-   - Canlı Demo: [Canlı Demo Linki](https://www.example.com/proje2)
 
 3. Proje: [Teknik Dokümantasyon](3-technical-documentation)
    - Açıklama: Projenin kısa açıklaması.
