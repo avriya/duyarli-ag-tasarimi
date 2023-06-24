@@ -30,8 +30,7 @@ Bu repository aşağıdaki projeleri içermektedir:
    - Açıklama: Hayali ya da gerçek, seçilen birisi için oluşturulmuş bir anma sayfası
 
 3. Proje: [Teknik Dokümantasyon](3-technical-documentation)
-   - Açıklama: Projenin kısa açıklaması.
-   - Canlı Demo: [Canlı Demo Linki](https://www.example.com/proje3)
+   - Açıklama: Seçilen konuyu açıklayan teknik bir doküman
 
 Her proje hakkında daha fazla bilgi için ilgili projeleri keşfedebilir ve responsive web tasarımındaki ilerlememi görebilirsiniz!
 
