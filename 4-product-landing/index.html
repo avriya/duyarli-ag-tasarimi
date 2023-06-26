@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <a
+        href="https://www.flaticon.com/free-icons/gym"
+        title="Gym icons created by Freepik - Flaticon"
+      >
+        <img src="img/kosu-bandi.png" alt="kosu-bandi" id="header-img" />
+      </a>
+      <nav id="nav-bar">
+        <a href="#header" class="nav-link">header</a>
+        <a href="#video" class="nav-link">video</a>
+        <a href="#form" class="nav-link">form</a>
+      </nav>
+    </header>
+
+    <main id="main-doc">
+      <iframe
+        src="https://www.youtube.com/embed/iN_vosLPEiM"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        id="video"
+        allowfullscreen
+      ></iframe>
+      <form
+        action="https://www.freecodecamp.com/email-submit"
+        method="post"
+        id="form"
+      >
+        <h2 id="form-header">Subscribe to receive our special offers</h2>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
+        <input type="submit" value="Submit" id="submit" />
+      </form>
+    </main>
+
+    <!-- body-footer -->
+    <footer id="copyrights">
+      <!-- copyrights -->
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+        <img
+          alt="Creative Commons License"
+          style="border-width: 0"
+          src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"
+        />
+      </a>
+      <br />This work is licensed under a
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"
+        >Creative Commons Attribution-NonCommercial 4.0 International License</a
+      >.
+    </footer>
+  </body>
+</html>

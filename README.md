@@ -13,7 +13,7 @@
 ---
 ## \[tr\] Türkçe Sürüm
 
-Bu saklanak, Duyarlı Ağ Tasarımı alanında sertifika kazanırken oluşturduğum projelerin bir derlemini içermektedir. Her proje, duyarlı ağ tasarımının farklı yönlerine odaklanmakta; mobil dostu ve uyarlanabilir ağ siteleri oluşturma becerilerimi sergilemektedir.
+Bu saklanak, Duyarlı Ağ Tasarımı alanında sertifika kazanırken oluşturduğum projelerin bir derlemini içermektedir. Her proje, duyarlı ağ tasarımının farklı yönlerine odaklanmakta; mobil dostu ve uyarlanabilir siteler oluşturma becerilerimi sergilemektedir.
 
 ### Sertifika
 
@@ -23,16 +23,22 @@ Bu saklanak, Duyarlı Ağ Tasarımı alanında sertifika kazanırken oluşturdu�
 
 Bu repository aşağıdaki projeleri içermektedir:
 
-1. Proje: [Araştırma Formu](1-survey-form/)
+1. Proje: [Ağ Geliştirme Araştırması](1-survey-form/)
    - Açıklama: Kullanıcıdan veri toplamak amacıyla geliştirilmiş bir araştırma formu
 
-2. Proje: [Anma Sayfası](2-tribute-page/)
-   - Açıklama: Hayali ya da gerçek, seçilen birisi için oluşturulmuş bir anma sayfası
+2. Proje: [Türklerin Atası](2-tribute-page/)
+   - Açıklama: Günümüz Türkiye'sini kuran adamı anma sayfası
 
-3. Proje: [Teknik Dokümantasyon](3-technical-documentation)
-   - Açıklama: Seçilen konuyu açıklayan teknik bir doküman
+3. Proje: [HTML'ye Giriş](3-technical-documentation)
+   - Açıklama: HTML'ye giriş teknik dokümanı
+   - 
+4. Proje: [Koşu Bandı](4-product-landing)
+   - Açıklama: Bir koşubandı ürün açılış sayfası
 
-Her proje hakkında daha fazla bilgi için ilgili projeleri keşfedebilir ve responsive web tasarımındaki ilerlememi görebilirsiniz!
+5. Proje: [Portfolyo](5-personal-portfolio)
+   - Açıklama: Projelerimi gösterdiğim şahsi portfolyom
+
+Her proje hakkında daha fazla bilgi için ilgili projeleri keşfedebilir ve duyarlı ağ tasarımındaki ilerlememi inceleyebilirsiniz!
 
 ### Lisans
 
@@ -51,20 +57,24 @@ I successfully completed the Responsive Web Design certificate program offered b
 
 The repository includes the following projects:
 
-1. Project 1: [Project Name](project1/README.md)
-   - Description: Brief description of the project.
-   - Live Demo: [Link to Live Demo](https://www.example.com/project1)
+1. Project 1: [Web Development Survey](1-survey-form)
+   - Description: A survey form to collect data from the users
 
-2. Project 2: [Project Name](project2/README.md)
-   - Description: Brief description of the project.
-   - Live Demo: [Link to Live Demo](https://www.example.com/project2)
+2. Project 2: [the Father of the Turks](2-tribute-page)
+   - Description: A tribute page for the man who founded the modern day Turkey
 
-3. Project 3: [Project Name](project3/README.md)
-   - Description: Brief description of the project.
-   - Live Demo: [Link to Live Demo](https://www.example.com/project3)
+3. Project 3: [HTML Intro](3-technical-documentation)
+   - Description: A technical introduction document for the HTML
+
+4. Project 4: [Treadmill](4-product-landing/)
+   - Description: A product landing page for a treadmill
+
+5. Project 5: [Personal Portfolio](3-technical-documentation)
+   - Description: A portfolio to showcase my projects
+
 
 Feel free to explore each project for more details and see my progression in responsive web design!
 
 ### License
 
-This repository is licensed under the [MIT License](LICENSE).
+This repository is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](LICENSE).

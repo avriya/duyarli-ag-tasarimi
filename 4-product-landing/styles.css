@@ -96,3 +96,10 @@
     background-color: lightgray;
   }
   
+
+#copyrights {
+  font-family: sans-serif;
+  font-size: smaller;
+  text-align: center;
+  margin: 1rem;
+}
