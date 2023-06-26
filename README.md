@@ -12,11 +12,7 @@
     - [License](#license)
 ---
 ## \[tr\] Türkçe Sürüm
-
-
-=======
 Bu saklanak, Duyarlı Ağ Tasarımı alanında sertifika kazanırken oluşturduğum projelerin bir derlemini içermektedir. Her proje, duyarlı ağ tasarımının farklı yönlerine odaklanmakta; mobil dostu ve uyarlanabilir siteler oluşturma becerilerimi sergilemektedir.
->>>>>>> sertifika
 
 ### Sertifika
 
@@ -28,19 +24,13 @@ Bu repository aşağıdaki projeleri içermektedir:
 
 1. Proje: [Ağ Geliştirme Araştırması](1-survey-form/)
    - Açıklama: Kullanıcıdan veri toplamak amacıyla geliştirilmiş bir araştırma formu
-
-
-=======
-1. Proje: [Türklerin Atası](2-tribute-page/)
+2. Proje: [Türklerin Atası](2-tribute-page/)
    - Açıklama: Günümüz Türkiye'sini kuran adamı anma sayfası
-
-2. Proje: [HTML'ye Giriş](3-technical-documentation)
+3. Proje: [HTML'ye Giriş](3-technical-documentation)
    - Açıklama: HTML'ye giriş teknik dokümanı
-   - 
-3. Proje: [Koşu Bandı](4-product-landing)
+4. Proje: [Koşu Bandı](4-product-landing)
    - Açıklama: Bir koşubandı ürün açılış sayfası
-
-4. Proje: [Portfolyo](5-personal-portfolio)
+5. Proje: [Portfolyo](5-personal-portfolio)
    - Açıklama: Projelerimi gösterdiğim şahsi portfolyom
 
 Her proje hakkında daha fazla bilgi için ilgili projeleri keşfedebilir ve duyarlı ağ tasarımındaki ilerlememi inceleyebilirsiniz!
@@ -83,4 +73,3 @@ Feel free to explore each project for more details and see my progression in res
 ### License
 
 This repository is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](LICENSE).
->>>>>>> sertifika
