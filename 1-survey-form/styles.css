@@ -1,0 +1,78 @@
+/* * {
+    border: 1px solid black;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.margin-form-item {
+  margin: 0 0 1rem 0;
+}
+
+.margin-form {
+  margin: auto;
+}
+
+.padding-form {
+  padding: 1.5rem 1rem;
+}
+
+.padding-buttonish {
+  padding: 0.5rem 0;
+}
+
+.border-rounded {
+  border-radius: 0.5rem;
+}
+
+.background-gradient {
+  background: linear-gradient(orangered, orange);
+}
+
+.display-block {
+  display: block;
+}
+
+.width-100pct {
+  width: 100%;
+}
+
+.max-width-form {
+  max-width: 25rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.color-white {
+  color: white;
+}
+
+.font-sans-serif {
+  font-family: sans-serif;
+}
+
+.font-emphasised {
+  font-style: italic;
+}
+
+.font-size-1rem {
+  font-size: 1rem;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+#copyrights {
+  font-family: sans-serif;
+  font-size: smaller;
+  text-align: center;
+  margin-bottom: 1rem;
+}
